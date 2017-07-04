@@ -202,7 +202,9 @@ public class BattleGame
         DrawDefeatedBox();
         _InstructionsCloseButton.Draw();
 
-        if (_InstructionsToggle){DrawInstructions();}
+        if (_InstructionsToggle){
+            DrawInstructions();
+        }
     }
 
     public void EnemyTurn()
